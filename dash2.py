@@ -3,7 +3,7 @@ import plotly.express as px
 import pandas as pd
 import dash_draggable
 
-df = pd.read_csv('C:/Users/Я/Documents/Pandas/Krabota/movies_emotions.csv')
+df = pd.read_csv('movies_emotions.csv')
 
 app = Dash(__name__)
 server = app.server
